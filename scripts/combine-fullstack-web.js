@@ -11,6 +11,7 @@ const badgeFiles = [
   "08-nuxt-00dc82.svg",
   "05-react-61dafb.svg",
   "06-next-js-000000.svg",
+  "09-shadcn-ui-000000.svg",
 ];
 
 const assetsDir = path.join(__dirname, "../assets");
@@ -35,7 +36,7 @@ function extractSvgContent(svgContent) {
 // 풀스택 웹 개발 기술 뱃지 결합
 async function combineFullstackWeb() {
   console.log(
-    "HTML + CSS + JavaScript + TypeScript + Vue 3 + Nuxt 3 + React 18 + Next 14 뱃지 결합을 시작합니다...\n"
+    "HTML + CSS + JavaScript + TypeScript + Vue 3 + Nuxt 3 + React 18 + Next 14 + Shadcn/UI 뱃지 결합을 시작합니다...\n"
   );
 
   // badges 출력 디렉터리 생성
@@ -77,8 +78,8 @@ async function combineFullstackWeb() {
   console.log(`\n총 크기: ${totalWidth}×${maxHeight}px\n`);
 
   // 통합 SVG 생성
-  let combinedSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalWidth}" height="${maxHeight}" role="img" aria-label="HTML CSS JavaScript TypeScript Vue Nuxt React Next.js">
-  <title>HTML CSS JavaScript TypeScript Vue Nuxt React Next.js</title>`;
+  let combinedSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalWidth}" height="${maxHeight}" role="img" aria-label="HTML CSS JavaScript TypeScript Vue Nuxt React Next.js Shadcn/UI">
+  <title>HTML CSS JavaScript TypeScript Vue Nuxt React Next.js Shadcn/UI</title>`;
 
   // 각 뱃지를 그룹으로 감싸서 위치 조정
   badges.forEach((badge, index) => {
@@ -95,7 +96,7 @@ async function combineFullstackWeb() {
   fs.writeFileSync(outputPath, combinedSvg);
 
   console.log(
-    "✅ HTML + CSS + JavaScript + TypeScript + Vue 3 + Nuxt 3 + React 18 + Next 14 뱃지 결합이 완료되었습니다!"
+    "✅ HTML + CSS + JavaScript + TypeScript + Vue 3 + Nuxt 3 + React 18 + Next 14 + Shadcn/UI 뱃지 결합이 완료되었습니다!"
   );
   console.log(`📁 저장 위치: ${outputPath}`);
   console.log(`📐 최종 크기: ${totalWidth}×${maxHeight}px`);

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="484" height="20" role="img" aria-label="HTML CSS JavaScript TypeScript Vue Nuxt React Next.js">
-  <title>HTML CSS JavaScript TypeScript Vue Nuxt React Next.js</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="565" height="20" role="img" aria-label="HTML CSS JavaScript TypeScript Vue Nuxt React Next.js Shadcn/UI">
+  <title>HTML CSS JavaScript TypeScript Vue Nuxt React Next.js Shadcn/UI</title>
   <!-- 01-html-e34f26.svg -->
   <g transform="translate(0, 0)">
     <title>html</title><g shape-rendering="crispEdges"><rect width="0" height="20" fill="#555"/><rect x="0" width="53" height="20" fill="#e34f26"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><image x="5" y="3" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+SFRNTDU8L3RpdGxlPjxwYXRoIGQ9Ik0xLjUgMGgyMWwtMS45MSAyMS41NjNMMTEuOTc3IDI0bC04LjU2NC0yLjQzOEwxLjUgMHptNy4wMzEgOS43NWwtLjIzMi0yLjcxOCAxMC4wNTkuMDAzLjIzLTIuNjIyTDUuNDEyIDQuNDFsLjY5OCA4LjAxaDkuMTI2bC0uMzI2IDMuNDI2LTIuOTEuODA0LTIuOTU1LS44MS0uMTg4LTIuMTFINi4yNDhsLjMzIDQuMTcxTDEyIDE5LjM1MWw1LjM3OS0xLjQ0My43NDQtOC4xNTdIOC41MzF6Ii8+PC9zdmc+"/><text x="355" y="140" transform="scale(.1)" fill="#fff" textLength="250">html</text></g>
@@ -31,5 +31,9 @@
   <!-- 06-next-js-000000.svg -->
   <g transform="translate(419, 0)">
     <title>next.js</title><g shape-rendering="crispEdges"><rect width="0" height="20" fill="#555"/><rect x="0" width="65" height="20" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><image x="5" y="3" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TmV4dC5qczwvdGl0bGU+PHBhdGggZD0iTTE4LjY2NSAyMS45NzhDMTYuNzU4IDIzLjI1NSAxNC40NjUgMjQgMTIgMjQgNS4zNzcgMjQgMCAxOC42MjMgMCAxMlM1LjM3NyAwIDEyIDBzMTIgNS4zNzcgMTIgMTJjMCAzLjU4My0xLjU3NCA2LjgwMS00LjA2NyA5LjAwMUw5LjIxOSA3LjJINy4ydjkuNTk2aDEuNjE1VjkuMjUxbDkuODUgMTIuNzI3Wm0tMy4zMzItOC41MzMgMS42IDIuMDYxVjcuMmgtMS42djYuMjQ1WiIvPjwvc3ZnPg=="/><text x="415" y="140" transform="scale(.1)" fill="#fff" textLength="370">next.js</text></g>
+  </g>
+  <!-- 09-shadcn-ui-000000.svg -->
+  <g transform="translate(484, 0)">
+    <title>shadcn ui</title><g shape-rendering="crispEdges"><rect width="0" height="20" fill="#555"/><rect x="0" width="81" height="20" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><image x="5" y="3" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+c2hhZGNuL3VpPC90aXRsZT48cGF0aCBkPSJNMjIuMjE5IDExLjc4NCAxMS43ODQgMjIuMjE5Yy0uNDA3LjQwNy0uNDA3IDEuMDY4IDAgMS40NzYuNDA3LjQwNyAxLjA2OC40MDcgMS40NzYgMEwyMy42OTUgMTMuMjZjLjQwNy0uNDA4LjQwNy0xLjA2OSAwLTEuNDc2LS40MDgtLjQwNy0xLjA2OS0uNDA3LTEuNDc2IDBaTTIwLjEzMi4zMDUuMzA1IDIwLjEzMmMtLjQwNy40MDctLjQwNyAxLjA2OCAwIDEuNDc2LjQwOC40MDcgMS4wNjkuNDA3IDEuNDc2IDBMMjEuNjA4IDEuNzgxYy40MDctLjQwNy40MDctMS4wNjggMC0xLjQ3Ni0uNDA4LS40MDctMS4wNjktLjQwNy0xLjQ3NiAwWiIvPjwvc3ZnPg=="/><text x="495" y="140" transform="scale(.1)" fill="#fff" textLength="530">shadcn ui</text></g>
   </g>
 </svg>
