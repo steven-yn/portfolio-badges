@@ -2,15 +2,10 @@ const fs = require("fs");
 const path = require("path");
 
 // 결합할 뱃지 파일들 (순서대로)
-const badgeFiles = [
-  "01-html-e34f26.svg",
-  "02-css-1572b6.svg",
-  "03-javascript-f7df1e.svg",
-  "04-typescript-1c7ed6.svg",
-];
+const badgeFiles = ["05-react-61dafb.svg", "06-next-js-000000.svg"];
 
-const assetsDir = path.join(__dirname, "assets");
-const outputDir = path.join(__dirname, "badges");
+const assetsDir = path.join(__dirname, "../assets");
+const outputDir = path.join(__dirname, "../badges");
 
 // SVG 파일에서 내용 추출하는 함수
 function extractSvgContent(svgContent) {
@@ -28,9 +23,9 @@ function extractSvgContent(svgContent) {
   return { width, height, content };
 }
 
-// 통합 SVG 생성
-async function combineBadges() {
-  console.log("뱃지 결합을 시작합니다...\n");
+// React + Next.js 뱃지 결합
+async function combineReactNextjs() {
+  console.log("React + Next.js 뱃지 결합을 시작합니다...\n");
 
   // badges 출력 디렉터리 생성
   if (!fs.existsSync(outputDir)) {
@@ -71,8 +66,8 @@ async function combineBadges() {
   console.log(`\n총 크기: ${totalWidth}×${maxHeight}px\n`);
 
   // 통합 SVG 생성
-  let combinedSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalWidth}" height="${maxHeight}" role="img" aria-label="HTML CSS JavaScript TypeScript">
-  <title>HTML CSS JavaScript TypeScript</title>`;
+  let combinedSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${totalWidth}" height="${maxHeight}" role="img" aria-label="React Next.js">
+  <title>React Next.js</title>`;
 
   // 각 뱃지를 그룹으로 감싸서 위치 조정
   badges.forEach((badge, index) => {
@@ -85,10 +80,10 @@ async function combineBadges() {
   combinedSvg += `\n</svg>`;
 
   // 결합된 SVG 파일 저장
-  const outputPath = path.join(outputDir, "lang&publish.svg");
+  const outputPath = path.join(outputDir, "react-nextjs.svg");
   fs.writeFileSync(outputPath, combinedSvg);
 
-  console.log("✅ 뱃지 결합이 완료되었습니다!");
+  console.log("✅ React + Next.js 뱃지 결합이 완료되었습니다!");
   console.log(`📁 저장 위치: ${outputPath}`);
   console.log(`📐 최종 크기: ${totalWidth}×${maxHeight}px`);
 
@@ -102,4 +97,4 @@ async function combineBadges() {
 }
 
 // 실행
-combineBadges().catch(console.error);
+combineReactNextjs().catch(console.error);

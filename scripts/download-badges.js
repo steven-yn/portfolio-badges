@@ -3,7 +3,10 @@ const https = require("https");
 const path = require("path");
 
 // assets.md 파일 읽기
-const assetsContent = fs.readFileSync("assets.md", "utf8");
+const assetsContent = fs.readFileSync(
+  path.join(__dirname, "../assets.md"),
+  "utf8"
+);
 
 // img 태그에서 src URL 추출하는 정규표현식
 const imgRegex = /<img\s+src="([^"]+)"/g;
@@ -17,7 +20,7 @@ while ((match = imgRegex.exec(assetsContent)) !== null) {
 console.log(`총 ${urls.length}개의 뱃지 이미지를 찾았습니다.`);
 
 // assets 폴더 생성
-const assetsDir = path.join(__dirname, "assets");
+const assetsDir = path.join(__dirname, "../assets");
 if (!fs.existsSync(assetsDir)) {
   fs.mkdirSync(assetsDir);
 }
