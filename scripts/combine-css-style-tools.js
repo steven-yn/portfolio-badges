@@ -87,7 +87,7 @@ async function combineCssStylingTools() {
   combinedSvg += `\n</svg>`;
 
   // 결합된 SVG 파일 저장
-  const outputPath = path.join(outputDir, "css-styling-tools.svg");
+  const outputPath = path.join(outputDir, "css-style-tools.svg");
   fs.writeFileSync(outputPath, combinedSvg);
 
   console.log(
