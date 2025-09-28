@@ -6,6 +6,7 @@
 <img src="https://img.shields.io/badge/next.js-000000?style=flat-square&logo=next.js&logoColor=fff"/>
 <img src="https://img.shields.io/badge/vue-4FC08D?style=flat-square&logo=vue.js&logoColor=fff"/>
 <img src="https://img.shields.io/badge/nuxt-00DC82?style=flat-square&logo=nuxt&logoColor=fff"/>
+<img src="https://img.shields.io/badge/shadcn_ui-000000?style=flat-square&logo=shadcnui&logoColor=fff"/>
 <img src="https://img.shields.io/badge/Tanstack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=fff"/>
 <img src="https://img.shields.io/badge/Recoil-0067A3?style=flat-square&logo=recoil&logoColor=fff"/>
 <img src="https://img.shields.io/badge/Zustand-D9411E?style=flat-square&logo=zustand&logoColor=fff"/>
