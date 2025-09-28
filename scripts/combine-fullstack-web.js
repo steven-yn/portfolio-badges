@@ -7,10 +7,10 @@ const badgeFiles = [
   "02-css-1572b6.svg",
   "03-javascript-f7df1e.svg",
   "04-typescript-1c7ed6.svg",
-  "07-vue-4fc08d.svg",
-  "08-nuxt-00dc82.svg",
-  "05-react-61dafb.svg",
-  "06-next-js-000000.svg",
+  "07-vue-3-4fc08d.svg",
+  "08-nuxt-3-00dc82.svg",
+  "05-react-18-61dafb.svg",
+  "06-next-14.svg",
   "09-shadcn-ui-000000.svg",
 ];
 

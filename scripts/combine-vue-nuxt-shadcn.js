@@ -3,8 +3,8 @@ const path = require("path");
 
 // 결합할 뱃지 파일들 (순서대로)
 const badgeFiles = [
-  "07-vue-4fc08d.svg",
-  "08-nuxt-00dc82.svg",
+  "07-vue-3-4fc08d.svg",
+  "08-nuxt-3-00dc82.svg",
   "09-shadcn-ui-000000.svg",
 ];
 

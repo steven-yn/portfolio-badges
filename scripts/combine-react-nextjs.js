@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // 결합할 뱃지 파일들 (순서대로)
-const badgeFiles = ["05-react-61dafb.svg", "06-next-js-000000.svg"];
+const badgeFiles = ["05-react-18-61dafb.svg", "06-next-14.svg"];
 
 const assetsDir = path.join(__dirname, "../assets");
 const outputDir = path.join(__dirname, "../badges");

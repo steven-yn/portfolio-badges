@@ -3,7 +3,7 @@ const path = require("path");
 
 // 결합할 뱃지 파일들 (순서대로)
 const badgeFiles = [
-  "17-tailwind-css-06b6d4.svg",
+  "17-tailwind-css-4-06b6d4.svg",
   "15-styled-components-db7093.svg",
   "14-sass-cc6699.svg",
   "16-vanilla-extract-db7093.svg",

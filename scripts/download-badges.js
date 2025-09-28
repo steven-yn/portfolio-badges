@@ -35,6 +35,11 @@ function getBadgeName(url) {
   const params = new URLSearchParams(urlParts.search);
   let techName = badge;
 
+  // 특별한 케이스 처리 - Next.js 14
+  if (url.includes("Next.js_14_(App/Page_Router)")) {
+    return "next-14";
+  }
+
   // 일부 뱃지는 URL 경로에서 기술명을 추출할 수 있음
   if (badge && badge !== "badge") {
     techName = badge;
