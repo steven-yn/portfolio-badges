@@ -59,3 +59,12 @@
 <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=fff"/>
 
 <img src="https://img.shields.io/badge/Teams-897BFF?style=flat-square&logo=teams&logoColor=fff"/>
+
+
+<img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=fff"/>
+
+<img src="https://img.shields.io/badge/Codex-FFFFFF?style=flat-square&logo=openaigym&logoColor=000"/>
+
+<img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=fff"/>
+
+<img src="https://img.shields.io/badge/V0-000000?style=flat-square&logo=v0&logoColor=fff"/>
